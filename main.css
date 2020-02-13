@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and {min-width: 244px;    
+}
+@media{
+    min-height: 491px;
+}
+html{
+    font-family: "karla",sans-serif;
+}
+.fcm{
+    height: 50vh; 
+    position: relative;
+    left: 10px;
+
+}
+.fcm img{
+    position:relative;
+    left: 23vh;
+    top: 45px;
+    width: 60px;
+}
+.ssec{
+    position: relative;
+    left: 30px;
+    top: 60px;
+    right: 35px;
+}
+.fp{
+    font-size: 20px;
+    color:rgb(184, 179, 179);
+    margin: 0px 25px 10px 0px;
+}
+.sp{
+    font-size: 10px;
+    height: 20px;
+    color:rgba(0, 0, 0, 0.685);
+    margin: 0px 0px 0px 35px;
+}
+
+strong{
+    color: black;}
+
+button{
+    border-radius: 15px;
+    border: none;
+    inline-size: 220px;
+    height: 25px;
+    background-color: rgb(64, 99, 255);
+    color: white;
+margin: 10px 5px 5px 0px; }
+    
+
+input{
+    border-radius: 15px;
+ inline-size: 220px;
+ height: 25px;
+    border-color: rgb(129, 191, 250);
+    margin:20px 5px 5px 0px;
+    border-color: rgba(102, 102, 245, 0.295);
+    border-width: 1px;
+}
+::placeholder{
+    color: rgba(73, 122, 214, 0.281);
+    padding: 20px;
+
+}
+.scm{
+    height:50vh;
+}
+.scm img{
+    position: relative;
+    right: 20px;
+}
+
+.frsec{
+    position: relative;
+    left:10vh;
+    top: 8vh;
+}
+.fimgs{
+    margin: 100px 15px 10px 80px;
+
+}
+.frsec p{
+     color:rgb(194, 191, 191);
+     font-size: 10px;
+     position: relative;
+     left:3vh ;
+}
+p img{
+    position: relative;
+    left: 1px;
+}
