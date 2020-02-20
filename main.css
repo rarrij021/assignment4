@@ -5,7 +5,7 @@
 
 @media screen and {min-width: 320vh;    
 }
-@media screen and{ max-width: 1024;}
+@media screen and { max-width: 1024;}
 
 html{
     font-family: "karla", sans-serif;
@@ -16,12 +16,14 @@ html{
     position: relative; 
     left:5vh; 
 }
+
 .fcm img{
     position:relative;
     left: 32vh;
     top: 10vh;
     width: 100px;
 }
+
 .ssec{
     position: relative;
     left: 10vh;
