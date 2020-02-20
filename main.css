@@ -1,97 +1,95 @@
 *{
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-@media screen and {min-width: 244px;    
+@media screen and {min-width: 320vh;    
 }
-@media{
-    min-height: 491px;
-}
-html{
-    font-family: "karla",sans-serif;
-}
-.fcm{
-    height: 50vh; 
-    position: relative;
-    left: 10px;
+@media screen and{ max-width: 1024;}
 
+html{
+    font-family: "karla", sans-serif;
+}
+
+.fcm{
+    height: 60vh; 
+    position: relative; 
+    left:5vh; 
 }
 .fcm img{
     position:relative;
-    left: 23vh;
-    top: 45px;
-    width: 60px;
+    left: 32vh;
+    top: 10vh;
+    width: 100px;
 }
 .ssec{
     position: relative;
-    left: 30px;
+    left: 10vh;
     top: 60px;
-    right: 35px;
 }
+
 .fp{
-    font-size: 20px;
+    font-size: 35px;
     color:rgb(184, 179, 179);
-    margin: 0px 25px 10px 0px;
+    margin: 8vh 0vh 3vh 0vh;
+    letter-spacing: 2px;
 }
+
 .sp{
-    font-size: 10px;
-    height: 20px;
+    font-size: 20px;
+    /* height: 20px; */
     color:rgba(0, 0, 0, 0.685);
-    margin: 0px 0px 0px 35px;
+    margin: 0vh 0vh 5vh 10vh;
 }
 
 strong{
     color: black;}
 
 button{
-    border-radius: 15px;
+    border-radius: 24px;
     border: none;
-    inline-size: 220px;
-    height: 25px;
-    background-color: rgb(64, 99, 255);
+    inline-size: 60vh;
+    height: 8vh;
+    background-color: rgb(53, 89, 250);
     color: white;
-margin: 10px 5px 5px 0px; }
+margin: 2vh 10vh 2vh 0vh; }
     
 
 input{
-    border-radius: 15px;
- inline-size: 220px;
- height: 25px;
+    border-radius: 24px;
+ inline-size: 60vh;
+ height: 8vh;
     border-color: rgb(129, 191, 250);
-    margin:20px 5px 5px 0px;
+    margin:0vh 10vh 0vh 0vh;
     border-color: rgba(102, 102, 245, 0.295);
     border-width: 1px;
 }
+
 ::placeholder{
     color: rgba(73, 122, 214, 0.281);
-    padding: 20px;
-
-}
-.scm{
-    height:50vh;
-}
-.scm img{
-    position: relative;
-    right: 20px;
+    text-align: initial;
+    padding: 15px;
+    font-weight:50px;
 }
 
 .frsec{
+     height:50vh; 
+     margin: 10vh 0vh 10vh 0vh;
     position: relative;
-    left:10vh;
-    top: 8vh;
+    left:8vh;
+    top: 10vh;
 }
-.fimgs{
-    margin: 100px 15px 10px 80px;
 
-}
-.frsec p{
-     color:rgb(194, 191, 191);
-     font-size: 10px;
+.fimgs{
      position: relative;
-     left:3vh ;
+     left:34vh;
+     top: 25vh;
+     letter-spacing: 10px;
 }
-p img{
+
+.fpara{
+    color:rgb(161, 159, 159);
     position: relative;
-    left: 1px;
-}
+    left: 24vh;
+    top: 27vh;
+   }
